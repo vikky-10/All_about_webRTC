@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="navigator.getUserMedia code sample" />
+    <title>Record using navigator.getUserMedia</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Using video and microphone API</h1>
+      <video id="videoOutput" autoplay muted></video>
+      <video id="recorded" autoplay loop></video>
+
+      <div>
+        <button id="record" disabled>Start Recording</button>
+        <button id="play" disabled>Play</button>
+        <button id="download" disabled>Download</button>
+      </div>
+
+      <div id="log"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
